@@ -24,7 +24,7 @@
 /* Nav Styles */
 nav {
     display: flex;
-    align-items: center;
+     align-items: center;
     justify-content: space-between;
     margin: 0px 200px;
     
@@ -50,6 +50,8 @@ nav {
     border-radius: 5px;
     font-size: 20px;
     border: none;
+    margin-right: 30px;
+    margin-top: 20px;
 }
 
 nav ul{
@@ -76,18 +78,25 @@ nav ul{
   }
   .banner-content{
     max-width: 584px;
+   
   }
+  
   .banner-greetings{
     font-size: 45px;
     font-weight: 600;
+    margin-bottom: 5px;
   }
   .banner-title{
     font-weight: bold;
     font-size: 85px;
+    margin-top: 5px;
+    margin-bottom: 20px;
   }
   .banner-description{
     font-weight: 400;
     font-size: 18px;
+    margin-top: 10px;
+
     
   }
   .dark-3{
@@ -177,4 +186,46 @@ nav ul{
 }
 .resume-download-cv{
   margin-top: 50px;
+}
+/* footer styles */
+footer{
+  padding: 130px 230px;
+  display: flex;
+  gap: 118px;
+}
+.footer-column{
+  width: 50%; 
+  margin-bottom: 20px;
+}
+.container{
+  display: flex;
+  max-width: 1140px;
+  justify-content: space-between;
+  margin: 0px auto;
+  gap: 118px;
+}
+
+footer input[type="text"], footer input[type="email"], footer textarea{
+  height: 64px;
+  border-radius: 5px;
+  background-color: white;
+  color: #757575;
+  display: block;
+  width: 100%;
+  font-size: 16px;
+  padding: 10px 20px;
+  margin-bottom: 24px;
+  border: none;
+}
+.footer-sub-title{
+  text-align: left;
+  font-weight: bold;
+  font-size: 35px;
+  
+}
+.description-color{
+  color: #474747;
+}
+.logo{
+  margin-top: 30px;
 }
